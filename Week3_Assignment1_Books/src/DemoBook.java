@@ -1,6 +1,9 @@
 // Name: Summer Star Isakson
 // Lab Date: 2026-01-22
 
+// Extra credit - added ability to enter multiple books | See lines 17 - 19
+// Extra credit - added 'author' to input strings | See lines 29 - 30
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
