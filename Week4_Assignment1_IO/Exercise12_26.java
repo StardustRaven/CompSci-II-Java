@@ -1,4 +1,4 @@
-// Name: Star Isakson
+// Name: Summer Isakson
 // Lab: Week 4 – Assignment 2 (Exercise 12.26)
 // Date: 01/30/2026
 
@@ -6,15 +6,14 @@
 // This program prompts the user to enter a directory name
 // and attempts to create that directory using the File.mkdirs() method.
 
-/*
- * ===== Extra Credit Additions =====
- * 1. Input validation to prevent empty directory names (lines 41–48)
- * 2. Display of absolute path for clarity (line 57)
- * 3. Comma-separated multiple directory creation (lines 61–101)
- * 4. Detection of file vs directory when path already exists (lines 111–118)
- * 5. User confirmation before creating nested directories (lines 124–135)
- * 6. Clear program completion message (lines 162, 170)
- */
+ // ===== Extra Credit Additions =====
+ // 1. Input validation to prevent empty directory names (lines 41–48)
+ // 2. Display of absolute path for clarity (line 57)
+ // 3. Comma-separated multiple directory creation (lines 61–101)
+ // 4. Detection of file vs directory when path already exists (lines 111–118)
+ // 5. User confirmation before creating nested directories (lines 124–135)
+ // 6. Clear program completion message (lines 162, 170)
+
 
 import java.io.File;                  // File class handles files and directories
 import java.util.Scanner;             // Scanner reads user input
