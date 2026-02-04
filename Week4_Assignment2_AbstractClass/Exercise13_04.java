@@ -6,6 +6,11 @@
 // This program receives a month and year from the command line
 // and displays a formatted calendar for that month.
 
+// How to Run:
+// Compile: javac Exercise13_04.java MyCalendar.java
+// Run: java Exercise13_04 <month> <year>
+// Example: java Exercise13_04 2 2026
+
 public class Exercise13_04 {
 
     public static void main(String[] args) {
