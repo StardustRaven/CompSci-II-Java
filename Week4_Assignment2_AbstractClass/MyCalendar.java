@@ -1,4 +1,4 @@
-// Name: Star Isakson
+// Name: Summer Isakson
 // Lab: Exercise 13.4 (Calendar Display using Calendar/GregorianCalendar)
 // Date: 02/03/2026
 //
