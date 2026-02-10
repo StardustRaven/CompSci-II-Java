@@ -54,18 +54,4 @@ Local Time Reference: Hearth Standard
        Continue story accumulation.
        Continue existing.
 
-[WatcherNotes]
-
-The Hearth remained quiet throughout the night as embers settled into a steady glow and the air stayed warm.
-
-Market activity resumed at first light with traders setting up stalls and cats resuming their unofficial patrol duties.
-
-Watcher reports indicate no perimeter breaches though morale remains variable depending on sleep quality.
-
-Kitchen operations are nominal with soup simmering tea steeping and bread warming near the fire.
-
-Multiple attempts by large dogs to occupy laps were recorded resulting in mild furniture stress.
-
-System assessment complete; recommendation logged: coffee required, immediately.
-
 === END LOG ===
