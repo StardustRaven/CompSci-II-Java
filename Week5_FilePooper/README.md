@@ -1,18 +1,47 @@
-## Getting Started
+FilePooper – Simple Java File I/O
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project demonstrates basic Java file input/output.
+It reads text from an external file and prints the contents to the console.
 
-## Folder Structure
+No frameworks. No libraries. Just Java doing Java things.
 
-The workspace contains two folders by default, where:
+Project Structure
+FilePooper/
+├── src/
+│   └── FilePooper.java
+├── data/
+│   └── input.txt
+└── README.md
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+src/ contains the Java source code
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+data/input.txt is the external file being read at runtime
 
-## Dependency Management
+How to Run
+Using VS Code
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Open the FilePooper folder as the workspace
+
+Open src/FilePooper.java
+
+Click Run
+
+Using the Command Line
+
+From the project root (FilePooper/):
+
+javac src/FilePooper.java
+java -cp src FilePooper
+
+Notes
+
+The program uses a relative path: data/input.txt
+
+It must be run from the project root folder for file I/O to work correctly
+
+The input file is included in the repository
+
+Expected Output
+
+The contents of data/input.txt will be printed to the console line by line.
