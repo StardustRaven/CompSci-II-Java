@@ -1,44 +1,47 @@
-FilePooper – Simple Java File I/O
+# FilePooper – Simple Java File I/O
 
-This project demonstrates basic Java file input/output.
+This project demonstrates basic Java file input/output.  
 It reads text from an external file and prints the contents to the console.
 
 No frameworks. No libraries. Just Java doing Java things.
 
-Project Structure
+---
+
+## Project Structure
+
 FilePooper/
 ├── src/
-│   └── FilePooper.java
+│ └── FilePooper.java
 ├── data/
-│   └── input.txt
+│ └── input.txt
 └── README.md
 
 
-src/ contains the Java source code
+- `src/` contains the Java source code  
+- `data/input.txt` is the external file read at runtime  
 
-data/input.txt is the external file being read at runtime
+---
 
-How to Run
-Using VS Code
+## How to Run
 
-Open the FilePooper folder as the workspace
+### Using VS Code
 
-Open src/FilePooper.java
+1. Open the **FilePooper** folder as the workspace  
+2. Open `src/FilePooper.java`  
+3. Click **Run**
 
-Click Run
+### Using the Command Line
 
-Using the Command Line
+From the project root (`FilePooper/):
 
-From the project root (FilePooper/):
-
+'bash
 javac src/FilePooper.java
 java -cp src FilePooper
-
 Notes
 
-The program uses a relative path: data/input.txt
+The program uses a relative file path: data/input.txt
 
-It must be run from the project root folder for file I/O to work correctly
+It must be run from the project root directory for file I/O to work correctly
 
 The input file is included in the repository
 
