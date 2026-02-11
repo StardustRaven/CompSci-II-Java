@@ -33,7 +33,8 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"src"
+			"BuildHouse",
+			"CompSci2/BuildHouse"
 		],
 		"java.project.outputPath": "bin",
 		"java.project.referencedLibraries": [
